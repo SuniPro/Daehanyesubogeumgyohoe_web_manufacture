@@ -1,0 +1,42 @@
+/*하단 영역*/
+
+/*하단 위쪽 라인 색*/
+footer{
+	border-top:2px solid #e94de4;
+}
+
+/*하단 배경 이미지를 덮는 오버레이*/
+footer .ft-wrap{
+	background-color:rgba(0,0,0,0.9);
+}
+
+/*카피라이트 영역*/
+footer .ft-copy{
+	background-color:#000;
+	color:#999;
+	font-size:12px;
+}
+
+/*카피라이트 강조 부분*/
+footer .ft-copy span{
+	color:#fff;
+}
+
+/*아이콘 부분*/
+footer .ft-info-1 i{
+	font-size:28px;
+	color:#919191;
+}
+/*내용 부분*/
+footer .ft-info-1 .c{
+	color:#919191;
+}
+/*타이틀 부분*/
+footer .ft-subj{
+	font-size:22px;
+	color:#fff;
+}
+/*내용 부분2*/
+footer .ft-info-2 li{
+	color:#919191;
+}

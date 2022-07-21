@@ -1,0 +1,94 @@
+.list-date-ul{
+	margin:0;
+	padding:0;
+}
+
+.list-date-ul li{
+	display:table;
+	table-layout:fixed;
+	width:100%;
+}
+
+.list-date-ul li.empty{
+	display:block;
+}
+
+.list-date-ul .lt-date{
+	display:table-cell;
+	width:40px;
+	vertical-align:top;
+}
+
+.list-date-ul .lt-data{
+	display:table-cell;
+	width:auto;
+	height:100px;
+	min-height:100px;
+	vertical-align:top;
+	padding-left:10px;
+}
+
+.list-date-ul .lt-date-box{
+	border-radius:5px;
+	background-color:#2e3138;
+	text-align:center;
+}
+
+.list-date-ul .lt-day{
+	font-size:14px;
+	color:#fff;
+	padding:5px 0;
+	margin:0;
+}
+
+.list-date-ul .lt-month{
+	font-size:14px;
+/*	background-color:#ff6c3a;*/
+	color:#fff;
+	padding:2px 0;
+	margin:0;
+	text-transform:uppercase;
+	border-radius:0 0 5px 5px;
+}
+
+.list-date-ul .lt-title a{
+	font-size:16px;
+	color:#333;
+	line-height:18px;
+	margin:3px 0 10px 0;
+	display:block;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	word-wrap:break-word;
+	text-align:left !important;
+}
+
+.list-date-ul .lt-conn{
+	font-size:12px;
+	font-family:"dotum";
+	color:#999;
+}
+
+.list-date-ul .devider{
+	display:block;
+	margin:15px 0;
+	border-bottom:1px dotted #eee;
+}
+
+.list-date-more{
+	text-align:right;
+}
+
+.list-date-more a{
+	display:inline-block;
+	margin-top:10px;
+	font-size:12px;
+	font-family:"dotum";
+	color:#888;
+}
+
+.list-date-more a:hover{
+	background-color:none !important;
+/*	color:#ff6c3a;*/
+}

@@ -1,0 +1,21 @@
+/*상/하단 자동 스크롤 버튼*/
+
+/*상단 이동 버튼*/
+#btm-btn .top-up{
+    border-bottom:30px solid #333;
+	color:#fff;
+}
+
+#btm-btn .top-up:hover{
+	border-bottom:30px solid #ee3733; 
+}
+
+/*하단 이동 버튼*/
+#btm-btn .top-down{
+    border-top:30px solid #333;
+	color:#fff;
+}
+
+#btm-btn .top-down:hover{
+	border-top:30px solid #ee3733; 
+}

@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+.sw-outlogin-input-box{
+	width:100%;
+	font-size:12px;
+	font-weight:normal;
+	font-family:dotum !important;
+}
+
+.sw-outlogin-input-box .link-block-btn{
+	display:inline-block;
+	font-size:12px;
+	text-align:center;
+	padding:5px 0;
+}
+
+.sw-outlogin-input-box .btn-black{
+	background:#424242;
+}
+
+/* 로그인 전 */
+.sw-outlogin-input-box a{
+	color:#333;
+}
+
+.sw-outlogin-input-box a:hover{
+	color:#ff6c3a;
+}
+
+.sw-outlogin-input-box .sw-input-item{
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+.sw-outlogin-input-box .sw-nbsp{
+	width:100%;
+	height:5px;
+}
+
+.sw-outlogin-input-box label{
+	font-weight:normal;
+	margin-bottom:0 !important;
+	margin-top:3px !important;
+}
+
+.sw-outlogin-input-box .sw-btn{
+	display:table;
+	table-layout:fixed;
+	width:100%;
+	margin-bottom:5px;
+	padding:0 11px;
+}
+
+.sw-outlogin-input-box .sw-btn .btn-size{
+	display:table-cell;
+	width:50%;
+	vertical-align:middle;
+}
+
+.sw-outlogin-input-box .sw-btn .btn-size a{
+	font-weight:normal;
+}
+
+.sw-outlogin-input-box .btn-size-1{
+	width:49%;
+}
+
+.sw-outlogin-input-box .btn-size-2{
+	width:50% !important;
+}
+
+.sw-outlogin-input-box .btn-size-3{
+	width:33.33333333% !important;
+}
+
+.sw-outlogin-input-box .sw-item{
+	width:100%;
+	box-sizing:border-box;
+}
+
+.sw-outlogin-input-box .sw-item .sw-item-l{
+	width:50%;
+	float:left;
+	margin-top:-3px;
+}
+
+.sw-outlogin-input-box .sw-item .block-item{
+    padding:5px 10px 10px 10px;
+}
+
+.sw-outlogin-input-box .sw-item .sw-item-r{
+	width:50%;
+	float:right;
+	text-align:right;
+}
+
+/* 로그인 후 */
+
+.sw-outlogin-input-box .sw-outlogin-box{
+	padding:10px 10px 0 10px;
+}
+
+.sw-outlogin-input-box .sw-user-info{
+	font-size:12px;
+	font-weight:bold;
+}
+
+.sw-outlogin-input-box .sw-user-item{
+	width:100%;
+	margin:10px 0;
+	display:table;
+	table-layout:fixed;
+}
+
+.sw-outlogin-input-box .sw-user-item .sw-item-col{
+	width:33.33333333%;
+	height:45px;
+	box-sizing:border-box;
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+
+.sw-outlogin-input-box .sw-user-item .sw-item-col:first-child{
+	border:1px solid #ccc;
+}

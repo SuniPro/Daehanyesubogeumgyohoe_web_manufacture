@@ -1,0 +1,111 @@
+/* 메인 셋팅 */
+@charset "utf-8";
+
+@import url("./bootstrap.css");
+@import url("./layout-topmenu-basic.css");
+@import url("./layout-mtopmenu-basic.css");
+@import url("./layout-main-basic.css");
+@import url("./layout-main-slide-basic.css");
+@import url("./layout-pagetitle-basic.css");
+@import url("./layout-submenu-basic.css");
+/* @import url("./layout-subtop-basic.css"); 만약 서브페이지 타이틀 스킨을 basic 으로 사용시 이 주석을 해제하고 아래의 bg_img 스타일을 주석하세요. */
+@import url("./layout-subtop-bg_img.css");
+@import url("./layout-tail-basic.css");
+@import url("./widget-over-ef1.css");
+@import url("./widget-topbtn-basic.css");
+@import url("./pages.css");
+@import url("./board.css");
+@import url("./latest.css");
+
+body {
+	background-color:#fff;
+}
+
+a{
+	color:#333;
+}
+a:hover{
+	color:#0a9fd8;
+}
+
+/*셀렉트박스를 selectric 사용시*/
+.selectric {
+  border: 1px solid #2e3138;
+  background: #FFF;
+  position: relative;
+}
+
+.selectric-open .selectric {
+  border-color: #2e3138;
+  background: #fff;
+}
+
+.selectric-items {
+  background: #fff;
+  border: 1px solid #2e3138;
+}
+
+.selectric-items:before,
+.selectric-items:after {
+  border-bottom: 6px solid #2e3138;
+}
+
+.selectric-items li.selected {
+  background: #2e3138;
+  color: #fff;
+}
+
+.selectric-items li.highlighted {
+  background: #2e3138;
+  color: #fff;
+}
+
+.selectric-items li {
+  color: #333;
+}
+
+.selectric-above .selectric-items:before,
+.selectric-above .selectric-items:after {
+  border-top: 6px solid #2e3138;
+}
+
+.selectric-items li:hover {
+  background: #2e3138;
+  color: #fff;
+}
+
+/*owl 캐러셀 도트버튼 */
+.owl-theme .owl-dots .owl-dot span {
+	width:10px;
+	height:10px;
+	margin:0 3px !important;
+	background:#ccc;
+	display:block;
+	-webkit-backface-visibility:visible;
+	transition:opacity 200ms ease;
+	border-radius:30px;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span{
+	background:#ff7e20;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+	background:#fa4251;
+}
+
+/*게시판 및 최근글 등 에서 사용되는 로더 색상*/
+.board-list-loader,
+.board-list-loader:before,
+.board-list-loader:after{
+	background:#0a9fd8;
+}
+
+.board-list-loader{
+	color:#0a9fd8;
+}
+
+/*이미지 로더*/
+.skin-loader{
+	background-color:#0a9fd8;
+}

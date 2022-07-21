@@ -1,0 +1,12 @@
+/* 메인 페이지 하단 - 파트너 부분 */
+.partner .item a{
+	display:block;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+.partner .item a:hover{
+	background-color:#eee;
+	border-radius:5px;
+}

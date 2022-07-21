@@ -1,0 +1,110 @@
+#portfolio-latest .img-gallery-item{
+	position:relative;
+	width:100%;
+	height:0;
+	overflow:hidden;
+	padding-bottom:65%;
+}
+
+#portfolio-latest .img-gallery-item .img-item {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#portfolio-latest .item-box{
+	border:1px solid #eee;
+	text-align:left;
+	font-size:12px;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+#portfolio-latest .item-box:hover{
+	background-color:#eee;
+}
+
+#portfolio-latest .item-subj{
+	width:100%;
+	box-sizing:border-box;
+	padding:15px;
+}
+
+#portfolio-latest .item-subj a{
+	display:block;
+	font-size:16px;
+	line-height:16px;
+	color:#333;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	word-wrap:break-word;
+	text-align:left !important;
+	width:100%;
+}
+
+#portfolio-latest .item-conn{
+display: inline-block;
+	width:100%;
+	height:133px;
+	font-size:12px;
+	font-family:"dotum";
+	overflow:hidden;
+	text-overflow:clip;
+	line-height:18px;
+	word-break:break-all;
+	box-sizing:border-box;
+	padding:0 15px;
+	color:#aaa;
+}
+
+#portfolio-latest .item-date{
+	text-align:right;
+	width:100%;
+	box-sizing:border-box;
+	padding:15px;
+	color:#aaa;
+}
+
+/* owl 스타일 */
+#portfolio-latest .owl-nav{
+	text-align:center;
+}
+
+#portfolio-latest .owl-nav [class*='owl-']{
+	font-size:14px;
+	padding:10px;
+	background-color:rgba(0,0,0,0.7);
+	cursor:pointer;
+	color:#fff;
+}
+
+#portfolio-latest .owl-nav [class*='owl-']:hover{
+	background-color:rgba(0,0,0,1);
+	text-decoration:none;
+}
+
+#portfolio-latest .owl-nav .owl-prev{
+	position:absolute;
+	top:50%;
+	left:0;
+	opacity:0;
+	-webkit-transform:translate(0,-50%);
+	-ms-transform:translate(0,-50%);
+	-o-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+}
+
+#portfolio-latest .owl-nav .owl-next{
+	position:absolute;
+	top:50%;
+	right:0;
+	opacity:0;
+	-webkit-transform:translate(0,-50%);
+	-ms-transform:translate(0,-50%);
+	-o-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+}

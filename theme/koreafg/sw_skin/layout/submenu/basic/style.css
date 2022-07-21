@@ -1,0 +1,83 @@
+.lm-wrap{ display:table; table-layout:fixed; margin-top:50px; margin-bottom:50px; }
+.lm-wrap .content-wrap{ display:table-cell; width:auto; padding:0 0 100px 45px; vertical-align:top; }
+@media(max-width:991px){
+	.lm-wrap .content-wrap{ display:table-cell; width:auto; padding:0 0 100px 0; vertical-align:top; }
+}
+
+.leftmenu-wrap .leftmenu-title{ position:relative; padding:20px 0; text-align:center; font-weight:bold; font-size:20px; }
+.leftmenu-wrap .leftmenu-title .shadow{ position:absolute; z-index:2; bottom:-20px; }
+.leftmenu-wrap .leftmenu-search{ padding:35px 0; }
+.leftmenu-wrap{ display:table-cell; width:200px; vertical-align:top; }
+.leftmenu-wrap .lm-ul{ margin:0; padding:0; }
+.leftmenu-wrap .lm-ul li{ list-style:none; }
+.leftmenu-wrap .lm-ul li a{ display:block; }
+.leftmenu-wrap .contectus{ padding-bottom:15px; }
+.leftmenu-wrap .contectus ul{ padding-left: 0; list-style: none; }
+.leftmenu-wrap .contectus li { position: relative; padding-left: 20px; margin-bottom: 20px; }
+.leftmenu-wrap .contectus li i { position: absolute; left: 0; top: 3px;  width: 20px; }
+
+/* 새롭게 디자인 */
+.location {background: #fff; border-bottom: 1px solid #ddd; height: 60px;}
+.location .container {padding: 0; position: relative; width: 100%; height: 100%;}
+.location .container .home {display: inline-block;width: 64px;background: #515464;height: 100%; color: #fff; text-align: center; line-height: 56px;}
+.location .container .home i {font-size: 1.25rem; padding-top: 20px; display: block;}
+.location .container ul {display: table;}
+.location .container ul li {border-right: 1px solid #ddd; display: table-cell; width: 33.3%;}
+.location .container .print {position: absolute; right: 0;top: 50%;margin-top: -22px; border: 1px solid #ddd;    background-color: #fff;border-radius: 600px;width: 40px;height: 40px;}
+.location .container .print i {position: absolute; right: 50%; top: 50%;margin-top: -10px;margin-right: -11px;font-size: 1.2rem;color: #c4c4c5;}
+
+.location .container .print:hover,.location .container .print:focus {border: 1px solid #515151;}
+.location .container .print:hover i, .location .container .print:focus i {color: #515151;}
+
+.location .container .home, 
+.location .container ul, 
+.location .container ul li {float: left;height: 100%;}
+.location .container ul li a {display: block;padding-left: 23px; position: relative; height: 100%; padding: 21px 23px 18px 23px; line-height: 1; font-size: 1rem;}
+.location .container ul li a span {display: inline-block;width: 145px; text-overflow: ellipsis; /*overflow: hidden;*/ white-space: nowrap; /*font-size: 1.2rem;*/}
+.location .container ul li a i {position: absolute; right: 0;top: 50%;margin-top: -8px;margin-right: 23px;}
+.location .container ul {width: 50%;}
+
+/*location dropdown*/
+.location .container ul li a.dropdown-item{padding:13px 23px;}
+.location .container ul li > a:hover,
+.location .container ul li > a:focus, 
+.location .container ul li.show > a, 
+.location .container ul li.show > a{border-bottom:2px solid #3c489d; color: #3c489d; text-decoration: none; background: none;}
+.location .dropdown-menu.show {width: 100%; border-radius: 0;border-top: 0;min-width: 9rem;}
+.location  .dropdown-toggle::after {display: none;}
+.location .dropdown-item:focus, .dropdown-item:hover {background-color:#deeeff;}
+.location .dropdown-menu a:hover {background:#e6e6e6;}
+.location .dropdown-menu.show {box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.06);}
+
+
+@media(max-width: 1800px) {
+    .location .container .print {right: 15px;}
+}
+
+@media(max-width: 1200px) {
+    .location .container ul {width: 60%;}
+    .location .container ul li a span {width: 82%;}
+}
+    
+@media(max-width: 1024px) {
+    .location .container ul {width: 86%;}
+    .location .container ul li a span { width: 66%;}
+    .location .container .print {border: 0;height: 100%;border-radius: 0;top: 0; margin-top: 0;width: calc(100% - 86% - 64px );right: 0;}
+}
+@media(max-width: 780px) { 
+    /*location*/
+    .location {height: 50px;}
+    .location .container ul {width: 90%; height: 100%;}
+    .location .container ul li{width:50%;}
+    .location .container ul li a {padding: 16px 15px;}
+    .location .container ul li a.dropdown-item {padding: 13px 18px;}
+    .location .container .print {/* width: calc(100% - 89%) */display:none;}
+    .location .container .home {width:10%;}
+
+	.location .dropdown, .dropleft, 
+	.location .dropright, .dropup {position: inherit;}
+	.location .dropdown-menu.show { transform: translate3d(0px, 50px, 0px) !important;}
+}
+@media (min-width: 1200px){
+    .container { max-width: 1300px; }
+}

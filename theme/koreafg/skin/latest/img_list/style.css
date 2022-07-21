@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+#latest-img-list .img-gallery-item{
+	position:relative;
+	width:100%;
+	height:0;
+	overflow:hidden;
+	padding-bottom:65%;
+}
+
+#latest-img-list .img-gallery-item .img-item {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#latest-img-list .board-list{
+	position:relative;
+	border-bottom:1px dotted #ddd;
+	width:100%;
+	margin-bottom:10px;
+}
+
+#latest-img-list .board-list .bo-title{
+	padding-bottom:10px;
+	color:#fff;
+	font-size:16px;
+	line-height:18px;
+	display:inline-block;
+}
+
+#latest-img-list .imglist-latest-wrap{
+	width:100%;
+}
+
+#latest-img-list .imglist-latest-wrap .imglist-item{
+	width:33.33333333333333%;
+	display:inline-block;
+	margin-bottom:10px;
+}
+
+#latest-img-list .imglist-latest-wrap .imglist-data{
+	width:94%;
+	margin:0 auto;
+}
+
+#latest-img-list .imglist-latest-wrap .imglist-t{
+	margin-top:5px;
+	font-size:14px;
+	line-height:16px;
+	height:16px;
+	overflow:hidden;
+	text-align:center;
+	font-weight:bold;
+}
+
+#latest-img-list .imglist-latest-wrap .imglist-i{
+	margin-top:5px;
+	text-align:center;
+	font-size:11px;
+	line-height:13px;
+	color:#999;
+	overflow:hidden;
+}
+
+#latest-img-list .imglist-latest-wrap .imglist-list-item{
+	margin:3px 0;
+	padding:0 5px;
+	display:table;
+	vertical-align:middle;
+    table-layout:fixed;
+    width:100%;
+}
+
+#latest-img-list .imglist-latest-wrap .imglist-list-item div{
+	display: table-cell;
+    height:12px;
+    line-height:12px;
+    padding:3px 0px;
+    color: #999;
+    vertical-align: middle;
+}
+
+#latest-img-list .imglist-latest-wrap .list-subject{
+	text-align:left;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	word-wrap:break-word;
+	font-size:12px;
+	width:auto;
+    color: #999;
+}
+
+#latest-img-list .imglist-latest-wrap .list-date{
+	text-align:right;
+	vertical-align:middle;
+	line-height:1;
+	font-size:12px;
+	width:50px;
+}
+
+#latest-img-list .imglist-latest-wrap a:hover{
+/*	color:#ff6c3a;*/
+}
+
+#latest-img-list .imglist-latest-wrap .imglist-list-item i{
+/*	color:#ff6c3a;*/
+}
+
+.img-list-more{
+	text-align:right;
+}
+
+.img-list-more a{
+	display:inline-block;
+	margin-top:10px;
+	font-size:12px;
+	font-family:"dotum";
+	color:#888;
+}
+
+.img-list-more a:hover{
+	background-color:none !important;
+/*	color:#ff6c3a;*/
+}

@@ -1,0 +1,53 @@
+.subpage-bg{ position:relative; width:100%; background-attachment:fixed; background-repeat:no-repeat; background-position:bottom; background-size:cover; background-image:url("./img/subbg.jpg"); height:30vmin; }
+.subpage-bg .subpage-title{ position:absolute; top:40%; left:50%; font-size:6vmin; -webkit-transform:translate(-50%,-40%); -ms-transform:translate(-50%,-40%); -o-transform:translate(-50%,-40%); transform:translate(-50%,-40%); z-index:2; }
+.subpage-bg .bg-overlay{ position:absolute; z-index:1; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.3); }
+.subpage-bg .subpage-nav{ position:absolute; z-index:3; top:70%; left:50%; -webkit-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%); -o-transform:translate(-50%,-50%); transform:translate(-50%,-50%); text-align:center; }
+.subpage-menu{ width:100%; }
+.subpage-bg .subpage-nav ul{ list-style:none; padding:0; margin:0; }
+.subpage-bg .subpage-nav li{ display:inline; position:relative; white-space:nowrap; padding:10px 5px; margin:0; }
+.subpage-bg .subpage-nav a{ text-decoration:none; }
+
+/* 새롭게 디자인 */
+.tit-nav {height: 374px; overflow: hidden;position: relative;}
+.tit-nav .bg {width: 100%; height: 100%; -webkit-transform: scale(1) rotate(.001deg); transform: scale(1) rotate(.001deg);-webkit-animation: scaleAnim 3s 1 ease-in-out forwards; animation: scaleAnim 3s 1 ease-in-out forwards;    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; position: absolute;}
+.tit-nav-bg01 .bg {background-image: url(./img/subbg01.jpg);}
+.tit-nav-bg02 .bg {background-image: url(./img/subbg02.jpg);}
+.tit-nav-bg03 .bg {background-image: url(./img/subbg03.jpg);}
+.tit-nav-bg04 .bg {background-image: url(./img/subbg04.jpg);}
+.tit-nav-bg05 .bg {background-image: url(./img/subbg03.jpg);}
+.tit-nav-bg06 .bg {background-image: url(./img/subbg03.jpg);}
+.tit-nav-bg07 .bg {background-image: url(./img/subbg03.jpg);}
+.tit-nav-bg08 .bg {background-image: url(./img/subbg03.jpg);}
+
+.tit-nav .tit-nav-h{padding-top: 207px;}
+.tit-nav .tit-nav-h > div {position: relative;}
+.tit-nav h1 {font-size: 1.8rem; font-weight: 600; text-align: center; color: #fff;font-family: 'nmj'; -webkit-animation-name: fadeInUp; animation-name: fadeInUp; -webkit-animation-duration: 1s;animation-duration: 1s;-webkit-animation-fill-mode: both;animation-fill-mode: both;}
+.tit-nav .tit-nav-h .top-nav-arrow {z-index: 999; width: 50px; height: 50px; border: 1px solid  rgba(255, 255, 255, 0.48); border-radius: 600px; position: absolute; top: 0}
+.tit-nav .tit-nav-h .top-nav-arrow  i {color: #fff; font-size: 29px; position: absolute; right: 50%;margin-right: -14px; top: 50%; margin-top: -15px;}
+.tit-nav .tit-nav-h .next {right: 0;}
+
+.tit-nav .path {text-align: center; padding-top: 25px; -webkit-animation-name: fadeInUp; animation-name: fadeInUp; -webkit-animation-duration: 1s;animation-duration: 1s;-webkit-animation-fill-mode: both;animation-fill-mode: both;}
+.tit-nav .path a {color: rgba(255, 255, 255, 0.54); font-size: 18px;}
+.tit-nav .path .home {position: relative;line-height: 1; padding-right: 37px;}
+.tit-nav .path ul {text-align: center;}
+.tit-nav .path ul,
+.tit-nav .path ul li {display: inline-block;}
+.tit-nav .path ul li a {position: relative; line-height: 1; display: inline-block;}
+.tit-nav .path ul li:not(:last-of-type) a {padding-right: 37px;}
+.tit-nav .path a i.xi-home-o {padding-right: 5px;}
+.tit-nav .path i.arr {position: absolute;right: 7px; top: 0;}
+.tit-nav .tit-nav-h .top-nav-arrow:hover {background: #fff; }
+.tit-nav .tit-nav-h .top-nav-arrow:hover i {color: #000; }
+
+@media(max-width: 1024px) {
+    .tit-nav .tit-nav-h {padding-top: 190px;}
+    .tit-nav .tit-nav-h .top-nav-arrow {display: none;}   
+}
+
+@media(max-width: 780px) {
+    /*tit-nav*/
+    .tit-nav { height: 183px;}
+    .tit-nav .tit-nav-h { padding-top: 115px;}
+    .tit-nav h1 { font-size: 1.5rem;;}
+    .tit-nav .path {display: none;}
+}

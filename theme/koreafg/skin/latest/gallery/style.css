@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+.main-gall-latest .img-gallery-item{
+	position:relative;
+	width:100%;
+	height:0;
+	overflow:hidden;
+	padding-bottom:65%;
+}
+
+.main-gall-latest .img-gallery-item .img-item {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.main-gall-latest{
+	position:relative;
+}
+
+.main-gall-latest .owl-theme .owl-dots{
+	position:absolute;
+	bottom:0 !important;
+	right:5px !important;
+}
+
+
+.main-gall-latest .owl-theme .owl-dots {
+	text-align:center;
+	-webkit-tap-highlight-color:transparent;
+}
+
+.main-gall-latest .owl-theme .owl-dots .owl-dot{
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+
+.gallery-more{
+	text-align:right;
+}
+
+.gallery-more a{
+	display:inline-block;
+	margin-top:10px;
+	font-size:12px;
+	font-family:"dotum";
+	color:#888;
+}
+
+.gallery-more a:hover{
+	background-color:none !important;
+}

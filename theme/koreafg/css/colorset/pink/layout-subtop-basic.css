@@ -1,0 +1,24 @@
+/*서브페이지 타이틀 상단 타이틀 스타일*/
+
+/*타이틀 폰트*/
+.sub-top-wrap .breadcrumbs li{
+    font-size:16px;
+    font-weight:300;
+    color:#333;
+}
+
+/*네비게이션 */
+.sub-top-wrap .breadcrumbs li:before{
+    content:'/';
+    color:#bbb;
+}
+
+/*네비게이션 링크 색*/
+.sub-top-wrap .breadcrumbs li a{
+	color:#333;
+}
+
+/*네이게이션 링크 오버시*/
+.sub-top-wrap .breadcrumbs li a:hover{
+	color:#e94de4;
+}

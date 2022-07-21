@@ -1,0 +1,8 @@
+a:link, a:visited {text-decoration:none;outline:0;font-size:12px;}
+a,a:hover, a:focus, a:active {text-decoration:none !important;outline:0;}
+
+.tab-more{
+	display:none;
+}
+
+.els{display:inline-block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;word-wrap:break-word;text-align:left !important;width:100%;}

@@ -1,0 +1,136 @@
+/* 메인 페이지 */
+
+/*기본 타이틀 아래 라인*/
+.m-subj::after{
+	background-color:#ee3733;
+}
+/*타이틀 하단 캡션*/
+.m-caption{
+	color:#999;
+}
+
+/*배경이 있는 영역의 타이틀*/
+.m-subj-2{
+	color:#fff;
+}
+
+/*배경이 있는 영역의 타이틀 아래 라인*/
+.m-subj-2::after{
+	background-color:#fff;
+}
+
+/*배경이 있는 영역의 타이틀 하단 캡션*/
+.m-caption-2{
+	color:#fff;
+}
+
+/*회색 배경 영역에서 사용*/
+.bg-gray{
+	background-color:#f8f8f8;
+}
+
+/*일부 텍스트로 표시되는 내용영역의 폰트 색상*/
+.m-conn p{
+	color:#666;
+}
+
+/*메인 아이콘 마우스 오버 관련 이펙트 및 색상*/
+.m-ef-1{
+	box-shadow:0 0 0 3px #ee3733;
+	-o-box-shadow:0 0 0 3px #ee3733;
+	-moz-box-shadow:0 0 0 3px #ee3733;
+	-webkit-box-shadow:0 0 0 3px #ee3733;
+}
+
+.m-ef-1:after{
+	background-color:#ee3733;
+}
+
+.m-ef-1:hover, .m-box:hover .m-ef-1{
+	color:#ee3733;
+}
+
+.m-ef-1{
+	box-shadow:0 0 0 3px #ee3733;
+	-o-box-shadow:0 0 0 3px #ee3733;
+	-moz-box-shadow:0 0 0 3px #ee3733;
+	-webkit-box-shadow:0 0 0 3px #ee3733;
+}
+.m-ef{
+	color:#fff;
+	transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+}
+
+.m-ef-1{
+	background-color:#fff;
+	-webkit-transition:color 0.4s;
+	-moz-transition:color 0.4s;
+	transition:color 0.4s;
+}
+
+/*서브 타이틀 폰트 - 최신글 타이틀로 사용됨*/
+.subj{
+	color:#333;
+}
+
+/*서브 타이틀 하단 라인*/
+.subj-1{
+	border-bottom:1px dotted #eee;
+}
+
+/*서브 타이틀 하단 라인 */
+.subj-1 .t{
+	border-bottom:1px solid #ee3733;
+}
+
+/*서브 타이틀 더보기 버튼*/
+.subj .more-btn a{
+	color:#999;
+}
+
+/*서브 타이틀 더보기 버튼 오버시*/
+.subj .more-btn a:hover{
+	color:#ee3733;
+}
+
+/*고객센터의 아이콘 부분*/
+.ls-info i{
+	color:#fff;
+	background-color:#ee3733;
+}
+
+/*배경이 있는 영역내에서 내용 색상*/
+.m-bg-wrap .m-bg-conn{
+	color:#fff;
+}
+
+/*배경이 있는 영역의 오버레이 색상*/
+.m-bg-wrap .m-bg-overlay{
+	background-color:rgba(0,0,0,0.5);
+}
+
+/*마름모꼴 아이콘 배경*/
+.dia-icon{
+	background:#fff none repeat scroll 0 0;
+}
+/*마름모꼴 오버시 배경*/
+.dia-icon:hover {
+	background:#ee3733;
+}
+/*마름모꼴 오버시 링크 및 폰트*/
+.dia-icon:hover a i,
+.dia-icon:hover a span{
+	color:#fff;
+}
+/*마름모꼴 기본 링크 및 폰트*/
+.dia-icon a i {
+	color:#666666;
+	transition:.5s;
+}
+.dia-icon a span {
+	color:#383838;
+	transition:.5s;
+}

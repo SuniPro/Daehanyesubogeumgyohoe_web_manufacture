@@ -1,0 +1,75 @@
+/* 상단 메뉴 - 최상단 부분 */
+
+/* 최상단 기본 */
+.top-wrap{
+	background-color:#fff;
+	-webkit-transition: all 0.20s ease-in-out;
+	-moz-transition: all 0.20s ease-in-out;
+	-ms-transition: all 0.20s ease-in-out;
+	-o-transition: all 0.20s ease-in-out;
+}
+
+/* 최상단 오버시 */
+.top-wrap:hover{
+	background-color:#ff6c3a;
+}
+
+/* 최상단 오버시 링크 색상 */
+.top-wrap:hover a{
+	color:#fff;
+}
+
+/* 최상단 링크 오버시 */
+.top-wrap a:hover{
+	background-color:#2e3138;
+	color:#fff;
+}
+
+
+
+
+/* 상단 메뉴 */
+
+/* 상단 기본 */
+.topmenu-wrap{
+	background-color:#2e3138;
+	transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+}
+
+/* 메뉴 링크 색상 */
+.topmenu-wrap .tmenu > a{
+	color:#fff;
+}
+
+/* 메뉴 오버시 배경 색상 */
+.topmenu-wrap .tmenu:hover > a{
+	background-color:#ff6c3a;
+}
+
+/* 메뉴 - 서브메뉴 링크 색상 */
+.topmenu-wrap .tmenu ul li a{
+	color:#fff;
+}
+
+/* 메뉴 - 서브메뉴 오버시 배경 색상 */
+.topmenu-wrap .tmenu ul li a:hover{
+	background-color:#ff6c3a;
+}
+
+/* 메뉴 - 검색박스 배경 색상 */
+.topmenu-wrap .search_box{
+	background-color:#fff;
+}
+
+/* 메뉴 - 검색박스 입력부분 글자 색상 */
+.topmenu-wrap .search_box input[type=text]{
+	color:#999;
+}
+
+/* 메뉴 - 검색박스 화살표 색상 */
+.topmenu-wrap .search_box .arrow{
+	border-color:transparent transparent #fff transparent;
+}

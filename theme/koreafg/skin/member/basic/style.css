@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+a{color:#333;}
+a:hover{color:#e91b23;}
+div,table,td,th{font-size:12px;}
+
+.panel-heading{
+	background:#424242 !important;
+	color:#fff !important;
+	border-radius:0 !important;
+}
+
+.panel-heading a{
+	color:#fff;
+}
+
+.panel-heading a:hover{
+	color:#ff8800;
+}
+
+/* Sub Title */
+.sub-title {
+	padding:10px 12px;
+	color:#333;
+	font-family:'ibt';
+	font-size:18px;
+	background:#fcfcfc;
+}
+
+.sub-title i{
+	margin-right:10px;
+	background:#eee;
+	padding-top:12px;
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	text-align:center;
+	color:#333;
+	font-size:25px;
+	display:inline-block;
+}
+
+/* 로그인 */
+.container{
+	font-size:12px;
+}
+.is-chk{
+	margin-top:10px;	
+}
+.mb-login-box{margin-top:10px;border:1px solid #eee;}
+.mb-login-box .mb-login-header{
+	background:#333;
+	color:#fff;
+	font-size:26px;
+	font-family:'ibt';
+	padding:15px;
+	border-bottom:1px solid #eee;
+}
+
+.mb-login-box .mb-login-footer{
+	background:#fcfcfc;
+	padding:15px;
+	border-top:1px solid #eee;
+	color:#ccc;
+}
+
+.mb-login-box .mb-login-footer span{
+	color:#ccc;
+	margin:0 10px;
+}
+
+.mb-login-box .input-group-addon{
+	font-size:12px;
+}
+
+.mb-login-box .mb-login-body{
+	padding:15px;
+}
+
+/* 회원가입 약관 */
+#fregister .alert-info strong{
+	font-size:12px;
+}
+
+#fregister .panel{
+	margin-bottom:0;
+}
+
+#fregister .mgt{
+	margin-top:40px;
+}
+
+#fregister .register-term{
+	position:relative;
+	height:200px;
+	margin:0px;
+	overflow:auto;
+}
+
+/* 회원가입 폼 */
+.captcha{
+	width:190px;
+}
+
+/* 비밀번호 확인 */
+.mb-pw-box{margin-top:10px;border:1px solid #eee;}
+.mb-pw-box .mb-pw-header{
+	background:#333;
+	color:#fff;
+	font-size:26px;
+	font-family:'ibt';
+	padding:15px;
+	border-bottom:1px solid #eee;
+}
+
+.mb-pw-box .mb-pw-body{
+	padding:15px;
+	line-height:20px;
+}
+
+/* Memo */
+.memo-send-info { padding:8px 20px;background:#fafafa;border-bottom:1px solid #eee; }
+.memo-content { padding:20px; line-height:22px;border-bottom:1px solid #eee; margin-bottom:15px; }
+.memo-send-form { padding:20px; }
+
+/* Scrap */
+.scrap-skin i.scrap-icon { background:#333; color:#fff; }
+.scrap-skin .scrap-head { margin:0px; padding: 10px 20px; line-height:22px; background:#333; color:#fff; font-size:16px; text-align:center; }
+.scrap-skin .scrap-form { padding: 10px 20px 20px; }
+
+.view-agree{
+	color:#fff;
+	float:right;
+}
+
+.view-agree:hover{
+	color:#999;
+}
+
+.input-group-addon{
+    border-radius:0 !important;
+	min-width:40px;
+	text-align:center;
+}

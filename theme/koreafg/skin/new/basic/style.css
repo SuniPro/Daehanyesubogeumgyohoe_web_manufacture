@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
+label, input, button, select, img {vertical-align:middle}
+input, button {margin:0;padding:0;font-family:dotum;font-size:1em}
+fieldset legend {
+    display: none;
+}
+
+.new-head{
+	display:table;
+    width:100%;
+    table-layout:fixed;
+    padding:15px 0;
+	font-weight:bold;
+    padding:0px !important;
+    margin:0px !important;
+    text-align:center;
+    clear:both;
+    height:43px;
+    line-height:43px;
+    color:#000;
+}
+
+.new-shdow-wrap{
+	position:relative;
+}
+
+.new-shdow-wrap .new-shadow{
+	position:absolute;
+	z-index:1;
+	top:-8px;
+}
+
+.new-shdow-wrap .new-shadow img{
+	width:100%;
+}
+
+.new-head span{
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+	font-weight:bold;
+	line-height:1;
+	font-size:14px;
+	padding:20px 0;
+}
+
+.new-body {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.new-body .b-subj{
+	font-size:14px;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+
+.new-body i{
+	position:relative;
+	font-size:14px;
+	top:1px;
+	color:#333;
+}
+
+.new-body li {
+    border-bottom: 1px solid #ddd;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+	font-size:12px;
+	-webkit-transition:all 0.20s ease-in-out;
+	-moz-transition:all 0.20s ease-in-out;
+	-ms-transition:all 0.20s ease-in-out;
+	-o-transition:all 0.20s ease-in-out;
+}
+
+.new-body li > div {
+    display: table-cell;
+    height: 34px;
+    line-height: 22px;
+    padding:10px 0px;
+    text-align: center;
+    color: #666;
+    vertical-align: middle;
+}
+
+.new-body li:hover{
+	background-color:#ffd6c8;
+}
+
+.new-row-chk{width:30px;}
+.new-row-gr{width:100px;}
+.new-row-title{width:auto;}
+.new-row-name{width:100px;}
+.new-row-date{width:100px;}
+
+.new-row-title-s,
+.new-row-title-s a,
+.new-row-title-s i{
+	color:#999;
+}
+
+.new-body .rp{padding-right:20px;}
+.new-body .lp{padding-left:20px;}
+
+.new-body .new-row-gr{font-weight:bold;}
+.new-body .new-row-title{text-align:left;}
+
+.list-tsearch {border:1px solid #ddd; background:#fafafa; padding:20px 15px 3px; margin-bottom:15px; }
+
+.pagination-board {
+	display: inline-block;
+	padding-left: 0;
+	margin: 20px 0;
+}
+.pagination-board > li {
+	display: inline;
+}
+.pagination-board > li > a,
+.pagination-board > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #333;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.pagination-board > li:first-child > a,
+.pagination-board > li:first-child > span {
+  margin-left: 0;
+}
+
+.pagination-board > li > a:hover,
+.pagination-board > li > span:hover,
+.pagination-board > li > a:focus,
+.pagination-board > li > span:focus {
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+}
+.pagination-board > .active > a,
+.pagination-board > .active > span,
+.pagination-board > .active > a:hover,
+.pagination-board > .active > span:hover,
+.pagination-board > .active > a:focus,
+.pagination-board > .active > span:focus {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #3799ef;
+  border-color: #3799ef;
+}
+.pagination-board > .disabled > span,
+.pagination-board > .disabled > span:hover,
+.pagination-board > .disabled > span:focus,
+.pagination-board > .disabled > a,
+.pagination-board > .disabled > a:hover,
+.pagination-board > .disabled > a:focus {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.pagination-board-lg > li > a,
+.pagination-board-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+}
+.pagination-board-sm > li > a,
+.pagination-board-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.ellipsis{display:block;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow: hidden;font-size:12px;}
+
+/* 글쓰기 폼 */
+.form-group {margin-bottom:15px;}
+.form-control, .well, .btn, .alert, .input-group-addon, .label {
+    border-radius: 0 !important;
+}

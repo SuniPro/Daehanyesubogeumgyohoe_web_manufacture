@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+.pr-row .img-gallery-item{
+	position:relative;
+	width:100%;
+	height:0;
+	overflow:hidden;
+	padding-bottom:65%;
+}
+
+.pr-row .img-gallery-item .img-item {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.pr-row{
+	padding:5px 0 !important;
+}
+
+.pr-item{
+	padding:0 !important;
+	margin:0 !important;
+}
+
+.pr-t-box{
+	margin:0 15px;
+	background:#4690ff;
+	min-height:200px;
+	border:1px solid #4690ff;
+}
+
+.pr-t-box p{
+	padding:15px;
+	color:#fff;
+	font-weight:bold;
+	font-family:'ibt';
+	font-size:30px;
+	letter-spacing:3px;
+}
+
+.pr-t-box span{
+	padding:15px;
+	font-family:'Raleway', sans-serif;
+	font-size:80px;
+	letter-spacing:3px;
+	font-weight:100;
+	color:#fff;
+	font-weight:normal;
+}
+
+.pr-c-box{
+	position:relative;
+	margin:0 15px;
+	border:1px solid #eee;
+	min-height:200px;
+}
+
+.pr-c-box .pr-arw-box{
+	position:relative;
+	margin:15px;
+	height:30px;
+}
+
+.pr-c-box p:first-child{
+	padding:30px 15px 5px 15px;
+}
+
+.pr-c-box p{
+	color:#777;
+	font-size:16px;
+	font-family:'ibt';
+	padding:0 15px;
+	line-height:18px;
+}
+
+.pr-c-box span{
+	font-size:15px;
+}
+
+.pr-c-box .pr-arw-left{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:7px 0 3px 0;
+	width:35px;
+	text-align:center;
+	border:1px solid #eee;
+	color:#777;
+	cursor:pointer;
+}
+
+.pr-c-box .pr-arw-right{
+	position:absolute;
+	top:0;
+	left:40px;
+	padding:7px 0 3px 0;
+	width:35px;
+	text-align:center;
+	border:1px solid #eee;
+	color:#777;
+	cursor:pointer;
+}
+
+.pr-row-carousel{
+	padding-top:5px !important;
+}
+
+.pr-c-box .pr-more{
+	position:absolute;
+	top:0;
+	right:0;
+	padding:5px 0;
+	width:35px;
+	text-align:center;
+	border:1px solid #eee;
+	color:#777;
+	font-size:16px;
+	cursor:pointer;
+}
+
+.main-pr-carousel{
+	margin:15px 0;
+}
+
+.main-pr-carousel .pr-item-box{
+	border-left:1px solid #eee;
+	border-right:1px solid #eee;
+	border-bottom:1px solid #eee;
+	background:#fff;
+}
+
+.main-pr-carousel .pr-item-box p{
+	font-size:12px;
+	font-weight:bold;
+	padding:20px 15px 10px 15px;
+	line-height:15px;
+	color:#555;
+}
+
+/* 이미지 오버 애니메이션 */
+.img-over-animate{
+	position:relative;
+	overflow:hidden;
+}
+
+.animate-box{
+	background:#3799ef;
+	position:absolute;
+	z-index:2;
+	opacity:0;
+	display:none;
+	top:0;
+	left:0;
+	cursor:pointer;
+}
+
+.animate-arrow{
+	opacity:0;
+	position:absolute;
+	z-index:3;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background:#000;
+	color:#fff;
+	text-align:center;
+	line-height:55px;
+	font-size:20px;
+	cursor:pointer;
+}

@@ -1,0 +1,112 @@
+.wb-box p{
+	padding:0;
+	margin:0;
+}
+
+.wb-top{
+	display:table;
+	table-layout:fixed;
+	width:100%;
+	margin-bottom:10px;
+}
+
+.wb-top .wb-date-wrap{
+	display:table-cell;
+	width:75px;
+	text-align:center;
+	vertical-align:top;
+	font-size:14px;
+}
+
+.wb-top .wb-date{
+	background-color:#2b2b2b;
+	color:#fff;
+}
+
+.wb-top .wb-date p{
+	margin:0;
+}
+
+.wb-top .wb-date p:first-child{
+	padding:1px 0;
+}
+
+.wb-top .wb-date p:last-child{
+	/*background-color:#ff6c3a;*/
+}
+
+.wb-top .wb-subject{
+	margin-left:15px;
+}
+
+.wb-top .wb-subject .sj{
+	display:block;
+	margin-bottom:10px;
+	font-size:18px;
+	font-weight:bold;
+	line-height:16px;
+	color:#333;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	word-wrap:break-word;
+	text-align:left !important;
+	width:100%;
+}
+
+.wb-top .wb-subject .sj:hover{
+	/*color:#ff6c3a;*/
+}
+
+.wb-top .wb-subject .cp{
+	font-size:14px;
+	color:#6b6b6b;
+}
+
+.wb-top .wb-subject .cp span{
+	font-weight:bold;
+	color:#6e6e6e;
+}
+
+.wb-box .wb-img{
+	position:relative;
+	width:100%;
+	height:0;
+	overflow:hidden;
+	padding-bottom:65%;
+}
+
+.wb-box .wb-img .wb-item {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.wb-box .wb-conn{
+	margin-top:20px;
+	color:#8a8a8a;
+	font-size:12px;
+	line-height:24px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	word-wrap:break-word;
+	text-align:left !important;
+	width:100%;
+	height:150px;
+}
+
+.wb-box .more{
+	float:right;
+	display:inline-block;
+	margin-top:10px;
+	font-size:12px;
+	font-family:"dotum";
+	color:#888;
+}
+
+.wb-box .more:hover{
+	background-color:none !important;
+	/*color:#ff6c3a;*/
+}

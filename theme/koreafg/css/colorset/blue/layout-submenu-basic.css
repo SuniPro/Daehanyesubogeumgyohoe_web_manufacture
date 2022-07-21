@@ -1,0 +1,50 @@
+/*서브페이지 좌측 메뉴*/
+
+/*최상단 라인 및 타이틀*/
+.leftmenu-wrap .leftmenu-title{
+	border-top:2px solid #0a9fd8;
+	color:#333;
+}
+
+/*메뉴 사이 구분선*/
+.leftmenu-wrap .lm-ul li{
+	border-bottom:1px dotted #eee;
+}
+
+/*메뉴 색상 및 사이즈*/
+.leftmenu-wrap .lm-ul li a{
+	padding:15px;
+	font-size:14px;
+	color:#333;
+}
+
+/*메뉴 오버시 */
+.leftmenu-wrap .lm-ul li a:hover{
+	background-color:#2e3138;
+	color:#fff;
+}
+
+/*선택된 페이지의 메뉴*/
+.leftmenu-wrap .lm-ul li a.active{
+	background-color:#0a9fd8;
+	color:#fff;
+}
+
+/*검색버튼*/
+.leftmenu-wrap .btn-search{
+	color: #fff;
+	background-color: #0a9fd8;
+	border-color: #0a9fd8;
+}
+
+/*검색버튼 오버시*/
+.leftmenu-wrap .btn-search:hover {
+	color: #fff;
+	background-color: #0a61d8;
+	border-color: #0a61d8;
+}
+
+/*CS 관련 정보*/
+.leftmenu-wrap .contectus li {
+    color: #969595;
+}

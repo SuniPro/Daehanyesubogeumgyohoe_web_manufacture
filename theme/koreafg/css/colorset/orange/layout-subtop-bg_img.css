@@ -1,0 +1,30 @@
+/*서브페이지 타이틀 */
+
+/*타이틀 폰트 색상 및 그림자*/
+.subpage-bg .subpage-title{
+	color:#fff;
+	font-weight:bold;
+	-webkit-text-shadow:1px 1px 1px rgba(0,0,0,0.75);
+	-moz-text-shadow:1px 1px 1px rgba(0,0,0,0.75);
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75);
+}
+
+/*네비게이션 폰트 색*/
+.subpage-bg .subpage-nav li{
+	color:#fff;
+}
+
+/*네비게이션 링크 색*/
+.subpage-bg .subpage-nav a{
+	color:#fff;
+	font-size:12px;
+}
+
+/*네비게이션 링크 - 현재페이지 선택된 부분*/
+.subpage-bg .subpage-nav a.active{
+	color:#ff6c3a;
+}
+/*네비게이션 링크 오버시*/
+.subpage-bg .subpage-nav a:hover{
+	color:#ff6c3a;
+}

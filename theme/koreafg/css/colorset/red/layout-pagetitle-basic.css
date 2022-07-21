@@ -1,0 +1,21 @@
+/*페이지 타이틀 스킨*/
+
+/*페이지 타이틀 색상 및 사이즈*/
+.subpage-header p{
+    color:#313131;
+    font-size:35px;
+    font-weight:600;
+}
+
+/*페이지 타이틀 선 색상*/
+.subpage-header p:before{
+    border-left:50px solid #DADADA;
+    border-right:50px solid #DADADA;
+}
+
+/*페이지타이틀 나머지 선 및 안에 마름모 색상*/
+.subpage-header p:after{
+    background:#ee3733 none repeat scroll 0 0 padding-box content-box;
+    border-bottom:1px solid #DADADA;
+    border-left:1px solid #DADADA;
+}

@@ -1,0 +1,62 @@
+#btm-btn{
+	position:fixed;
+	right:20px;
+	bottom:20px;
+	text-align:center;
+	z-index:9;
+}
+
+#btm-btn .top-up{
+	width:0px;
+	height:0px;
+	border-right:30px solid transparent;
+/*    border-bottom:30px solid #333;*/
+    border-left:30px solid transparent;
+/*	color:#fff;*/
+	cursor:pointer;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+
+#btm-btn .top-up:hover{
+/*	border-bottom:30px solid #ff6c3a; */
+}
+
+#btm-btn .top-up:after{
+	content:"TOP";
+	z-index:2;
+	font-size:11px;
+	position:absolute;
+	left:22px;
+	top:14px;
+}
+
+#btm-btn .top-down{
+	margin-top:1px;
+	width:0px;
+	height:0px;
+	border-right:30px solid transparent;
+/*    border-top:30px solid #333;*/
+    border-left:30px solid transparent;
+/*	color:#fff;*/
+	cursor:pointer;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+
+#btm-btn .top-down:after{
+	content:"DOWN";
+	z-index:2;
+	font-size:11px;
+	position:absolute;
+	left:16px;
+	top:33px;
+}
+
+#btm-btn .top-down:hover{
+/*	border-top:30px solid #ff6c3a; */
+}

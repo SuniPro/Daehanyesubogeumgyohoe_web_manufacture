@@ -1,0 +1,36 @@
+.board-list-top-line{
+    border-top:1px solid #ee3733;
+}
+
+.board-view-top-line{
+    border-top:1px solid #ee3733;
+}
+
+.board-view-subj:after{
+    background:#ee3733;
+    height:2px;
+}
+
+.board-write-top-line{
+    border-top:1px solid #ee3733;
+}
+
+/*웹진/블로그 스킨 - 목록의 작성자 표시 색상*/
+.u-info span{
+	font-size:12px;
+	color:#ee3733;
+	font-weight:bold;
+}
+
+.view-wrap .list-group-item{
+	border-radius:0;
+	padding:10px;
+}
+
+.view-wrap .list-group-item:hover{
+	background-color:#eee;
+}
+
+#board-container .blog-date p.blog-date-y{
+	background-color:#ee3733;
+}

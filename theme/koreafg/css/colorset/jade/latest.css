@@ -1,0 +1,119 @@
+/* 최신글 관련 공통 스타일 */
+
+/*박스형 풀갤러리의 카테고리 버튼 기본색상*/
+.cube-gallery .cube-cate div a{
+	border:2px solid #eee;
+	color:#333;
+}
+/*박스형 풀갤러리의 카테고리 버튼 오버,선택된 상태의 오버시 색상*/
+.cube-gallery .cube-cate div a:hover,
+.cube-gallery .cube-cate div.active a:hover{
+	border:2px solid #0bb586;
+	background-color:#0bb586;
+	color:#fff;
+}
+/*박스형 풀갤러리의 카테고리 버튼 선택시 배경 및 폰트 색상*/
+.cube-gallery .cube-cate div.active a{
+	border:2px solid #0bb586;
+	background-color:transparent;
+	color:#0bb586;
+}
+
+/*최근글 - webzine_date*/
+
+/*스킨의 날짜 부분 색상*/
+.wb-top .wb-date p:last-child{
+	background-color:#0bb586;
+}
+
+/*스킨의 제목 오버시*/
+.wb-top .wb-subject .sj:hover{
+	color:#0bb586;
+}
+
+/*스킨의 더보기 버튼 오버시*/
+.wb-box .more:hover{
+	color:#0bb586;
+}
+
+/* 목록형 스킨*/
+/*스킨의 별표 색상*/
+.board-list-conn i{
+    color: #0bb586;
+}
+
+/*스킨의 링크 오버시 색상*/
+.board-list-conn a:hover{
+	color:#0bb586;
+}
+
+/*스킨의 더보기 버튼 오버시 색상*/
+.tabonly a:hover{
+	color:#0bb586;
+}
+
+/* list_date_slide 스킨*/
+/*스킨의 날짜 색상*/
+.latest-sly .lt-month{
+	background-color:#0bb586;
+	color:#fff;
+}
+
+/*스킨의 링크 오버시 색상*/
+.latest-sly .lt-title a:hover{
+	color:#0bb586;
+}
+
+/*스킨의 링크 오버시 색상*/
+.tab-list-date-slide a:hover{
+	color:#0bb586;
+}
+
+/* list_date 스킨*/
+/*스킨의 링크 오버시 색상*/
+.list-date-more a:hover{
+	background-color:none !important;
+	color:#0bb586;
+}
+
+/*스킨의 날짜 색상*/
+.list-date-ul .lt-month{
+	background-color:#0bb586;
+	color:#fff;
+}
+
+/* webzine 스킨*/
+/* 링크 오버시 */
+#latest-webzine .webzine-latest-wrap a:hover{
+	color:#0bb586;
+}
+
+/* 더보기 버튼 오버시 */
+.webzine-more a:hover{
+	color:#0bb586;
+}
+
+/* img 스킨*/
+/* 링크 오버시 */
+.latest-img .img-latest-wrap a:hover {
+    color: #0bb586;
+}
+
+/* 더보기 버튼 링크 오버시 */
+.img-more a:hover{
+	background-color:none !important;
+	color:#0bb586;
+}
+
+/* img_list 스킨*/
+#latest-img-list .imglist-latest-wrap a:hover{
+	color:#0bb586;
+}
+
+#latest-img-list .imglist-latest-wrap .imglist-list-item i{
+	color:#0bb586;
+}
+
+.img-list-more a:hover{
+	color:#0bb586;
+}

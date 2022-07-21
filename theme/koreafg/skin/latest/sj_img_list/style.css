@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+.main-gall-latest .img-gallery-item{ position:relative; width:100%; height:0; overflow:hidden; padding-bottom:65%; }
+.main-gall-latest .img-gallery-item .img-item { position:absolute; top:0; left:0; width:100%; height:100%; }
+.main-gall-latest{ position:relative; }
+.main-gall-latest .owl-theme .owl-dots{ position:absolute; bottom:0 !important; right:5px !important; }
+.main-gall-latest .owl-theme .owl-dots { text-align:center; -webkit-tap-highlight-color:transparent; }
+.main-gall-latest .owl-theme .owl-dots .owl-dot{ display:inline-block; zoom:1; *display:inline; }
+
+.gallery-more{ text-align:right; }
+.gallery-more a{ display:inline-block; margin-top:10px; font-size:12px; font-family:"dotum"; color:#888; }
+.gallery-more a:hover{ background-color:none !important; }
+
+
+
+/*새롭게 만든 디자인 */
+button{border:0 none;cursor:pointer;background:none;}
+
+.main_wrap .inCont { /*width:1200px;*/width:1300px; margin:0 auto; /*padding-top:140px;*/padding-top:0px; padding-bottom:80px; }
+.main_wrap h2 img { height:60px; }
+.main_wrap .btns_slide { position: absolute; right:0; /*top:23px;*/top:-40px; }
+.main_wrap .btns_slide button { margin-left:16px; }
+.main_wrap .btns_slide button img { width:24px; }
+.main_wrap .titbox { position: relative; }
+
+.main_wrap .sec02 { /*margin-top:195px;*/margin-top:58px; position: relative; z-index:4; }
+.main_wrap .sec02:before { content:''; width:1920px; /*height:909px;*/height:500px; background:url(./img/bg01.jpg) no-repeat; background-size:100% auto; position: absolute; left:50%; top:50%; transform: translate(-50%, -50%); }
+.main_wrap .sec02 .view { position: relative; margin-top:46px; height:377px; }
+.main_wrap .sec02 .view li { display:inline-block; /*width: 382px;*/width: 420px; height: 377px; border-radius: 10px; box-shadow: 0 10px 30px 0 rgba(48, 49, 51, 0.06); background-color: #ffffff; position: relative; vertical-align: top; transition: all 0.7s; }
+.main_wrap .sec02 .view li:hover dl { display:none; }
+.main_wrap .sec02 .view li:hover .txtin { display:block; }
+.main_wrap .sec02 .view li + li { margin-left:26px; }
+.main_wrap .sec02 .view li .txtin { padding:20px; position: absolute; left:0; top:0; width:100%; box-sizing: border-box; display:none; }
+.main_wrap .sec02 .view li dt img { width:100%; }
+.main_wrap .sec02 .view li dd { padding:20px; }
+.main_wrap .sec02 .view li .tag { font-size: 12px; font-weight: bold; line-height: 1.5; color: #6ec5ff; display:block; }
+.main_wrap .sec02 .view li .tit { font-size: 18px; font-weight: normal; line-height: normal; color: #000; display:block; margin-top:3px; }
+.main_wrap .sec02 .view li p { font-size: 14px; font-weight: normal; line-height: 1.5; letter-spacing: normal; color: #718096; margin-top:10px; }
+.main_wrap .sec02 .view li a.btn { margin-top:20px; font-size: 14px; font-weight: bold; line-height:20px; color: #000000; display:inline-block; margin-top:20px; }
+.main_wrap .sec02 .view li a.btn img { width:20px; margin-left:5px; vertical-align:middle; }
+.main_wrap .sec02 .view li .info { position: absolute; left:0; bottom:0; padding:0 20px 20px; width:100%; box-sizing: border-box; display: flex; justify-content: space-between; }
+.main_wrap .sec02 .view li .info .user { padding-left:40px; display:inline-block; background:url(./img/icon_01.png) no-repeat; background-size:30px; font-size: 14px; line-height:30px; color: #000000; }
+.main_wrap .sec02 .view li .views { font-size: 12px; font-weight: normal; line-height: 30px; color: #718096; }
+.main_wrap .sec02 .view li:hover { transform: scale(1.1); z-index:6; }
+.main_wrap .sec02 .slick-list { overflow:hidden; padding:24px; /*width:1200px;*/width:1300px; box-sizing: content-box; transform: translate(-24px, -24px); }
+
+.mo_view {display:none;}
+
+@media (max-width: 1200px){
+    #wrap {padding-top:56px;}
+    .mo_view {display:block;}
+    .pc_view {display:none;}
+    .main_wrap .inCont { width:auto; margin:0 20px; /*padding-top:90px; padding-bottom:120px;*/ }
+    .main_wrap h2 img { height:21px; }
+    .main_wrap .titbox { position: relative; }
+    .main_wrap .btns_slide { position: relative; top:0; left:0; right:0; }
+    .main_wrap .btns_slide button { margin-left:0px; margin-top:28px; }
+    .main_wrap .btns_slide button + button { margin-left:16px; }
+    .main_wrap .btns_slide button img { width:24px; }
+    .main_wrap .sec02 { /*margin-top:135px;*/ position: relative; z-index:4; }
+    .main_wrap .sec02 .titbox img { height:56px; }
+    .main_wrap .sec02:before { content:''; width:150%; /*height:712px;*/height:520px; background:url(https://softeer.ai/images/main/bg_sec02.png) no-repeat; background-size:cover; position: absolute; left:50%; top:50%; transform: translate(-50%, -50%); }
+    .main_wrap .sec02 .view { position: relative; margin-top:28px; height:305px; }
+    .main_wrap .sec02 .view li { display:inline-block; width: 293px; height: 305px; border-radius: 10px; box-shadow: 0 10px 30px 0 rgba(48, 49, 51, 0.06); background-color: #ffffff; position: relative; vertical-align: top; }
+    .main_wrap .sec02 .view li + li { margin-left:16px; }
+    .main_wrap .sec02 .view li .txtin { padding:20px; }
+    .main_wrap .sec02 .view li dt img { width:100%; height:165px; }
+    .main_wrap .sec02 .view li dd { padding:20px; }
+    .main_wrap .sec02 .view li .tag { font-size: 12px; font-weight: bold; line-height: 1.5; color: #6ec5ff; display:block; }
+    .main_wrap .sec02 .view li .tit { font-size: 16px; font-weight: normal; line-height: normal; color: #000; display:block; margin-top:1px; }
+    .main_wrap .sec02 .view li p { font-size: 14px; font-weight: normal; line-height: 1.5; letter-spacing: normal; color: #718096; margin-top:10px; max-height:86px; overflow-y:hidden; }
+    .main_wrap .sec02 .view li a.btn { margin-top:20px; font-size: 14px; font-weight: bold; line-height:20px; color: #000000; display:inline-block; margin-top:20px; }
+    .main_wrap .sec02 .view li a.btn img { width:20px; margin-left:5px; vertical-align:middle; }
+    .main_wrap .sec02 .view li .info { position: absolute; left:0; bottom:0; padding:0 20px 15px; width:100%; box-sizing: border-box; display: flex; justify-content: space-between; }
+    .main_wrap .sec02 .view li .info .user { padding-left:40px; display:inline-block; background:url(https://softeer.ai/images/main/icon_user.png) no-repeat; background-size:30px; font-size: 14px; line-height:30px; color: #000000; }
+    .main_wrap .sec02 .view li .views { font-size: 12px; font-weight: normal; line-height: 30px; color: #718096; }
+    .main_wrap .sec02 .slick-list { overflow:visible; }
+}
